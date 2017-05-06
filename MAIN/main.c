@@ -144,19 +144,9 @@ int main(void)			 //从usart2读卡
 		if(times%30==0)
 		{
 			LED0=!LED0;//闪烁LED,提示系统正在运行.
-			//printf("%02X ", sign);
 			//printf("%04X ",USART2_RX_STA&0X3FFF);
 			//printf("%02X ",USART_RX_BUF[6]);
 			//printf("%02X \r\n",USART2_RX_BUF[0]);
-           // if(USART2_RX_STA&0x40)	   //如果一段时间读不到9位
-		   //	{
-	       //     printf("Not an ID card\r\n");
-			//   	for(t=0;t<USART2_RX_STA&0X3F;t++)
-		    //    {
-		//	   	    printf("%02X ",USART2_RX_BUF[t]);
-		    //    }
-		//	   	USART2_RX_STA=0;	
-		  //  }
 			times = 0;	
 		}
 		times++;
@@ -164,6 +154,29 @@ int main(void)			 //从usart2读卡
 	}
 											  	 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

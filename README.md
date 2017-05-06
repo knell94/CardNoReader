@@ -1,4 +1,4 @@
-# CardNoReader
+# CardNoReader\n
 读身份证号
 模块是千景科技的mini模块
 http://www.qianjingkeji.com/yueduqimozu/xiaomokuai.html

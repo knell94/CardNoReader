@@ -1,4 +1,5 @@
-#include <stm32f10x_lib.h>	   
+#include <stm32f10x_map.h>
+#include <stm32f10x_nvic.h>   
 #include "led.h"	   
 
 //初始化PA8和PD2为输出口.并使能这两个口的时钟		    

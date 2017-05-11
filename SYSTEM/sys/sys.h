@@ -1,6 +1,7 @@
 #ifndef __SYS_H
 #define __SYS_H	 
-#include <stm32f10x_lib.h>  
+#include <stm32f10x_map.h>
+#include <stm32f10x_nvic.h> 
 
 ///////////////////////////////////////////////////////////////
 //位带操作,实现51类似的GPIO控制功能

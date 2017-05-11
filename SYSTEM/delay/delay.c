@@ -1,4 +1,5 @@
-#include <stm32f10x_lib.h>
+#include <stm32f10x_map.h>
+#include <stm32f10x_nvic.h>
 #include "delay.h"	 
 static u8  fac_us=0;//us延时倍乘数
 static u16 fac_ms=0;//ms延时倍乘数

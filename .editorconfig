@@ -3,6 +3,5 @@ root = true
 
 # all files
 [*]
-charset = ansi
 indent_style = tab
 indent_size = 4

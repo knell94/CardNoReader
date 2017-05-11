@@ -1,4 +1,5 @@
-#include <stm32f10x_lib.h>
+#include <stm32f10x_map.h>
+#include <stm32f10x_nvic.h>
 #include "key.h"
 #include "delay.h"
 //按键初始化函数

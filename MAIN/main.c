@@ -1,4 +1,5 @@
-#include <stm32f10x_lib.h>
+#include <stm32f10x_map.h>
+#include <stm32f10x_nvic.h>
 #include "sys.h"
 #include "usart.h"		
 #include "delay.h"	

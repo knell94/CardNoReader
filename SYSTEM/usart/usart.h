@@ -1,6 +1,7 @@
 #ifndef __USART_H
 #define __USART_H
-#include <stm32f10x_lib.h>
+#include <stm32f10x_map.h>
+#include <stm32f10x_nvic.h>
 #include "stdio.h"	 
 
 	  	
